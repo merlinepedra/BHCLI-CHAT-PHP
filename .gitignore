@@ -1,0 +1,7 @@
+captcha.gif
+samples
+target
+dist
+*.log
+*.svg
+*.env

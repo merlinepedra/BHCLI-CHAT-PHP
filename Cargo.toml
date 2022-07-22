@@ -1,0 +1,35 @@
+[package]
+name = "bhcli"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base64 = "0.13.0"
+chrono = "0.4.19"
+clap = "3.0.0-beta.4"
+clipboard = "0.5.0"
+colors-transform = "0.2.4"
+confy = "0.4.0"
+crossbeam = "0.8.1"
+crossbeam-channel = "0.5.1"
+crossterm = { version = "0.21.0" }
+http = "0.2.4"
+image = "0.23.14"
+lazy_static = "1.4.0"
+linkify = "0.7.0"
+rand = "0.8.4"
+regex = "1.5.4"
+reqwest = { version = "0.11.4", features = ["blocking", "cookies", "socks", "multipart"] }
+rodio = "0.14.0"
+rpassword = "5.0.1"
+select = "0.6.0-alpha.1"
+serde = "1.0.130"
+serde_derive = "1.0.88"
+serde_json = "1.0"
+termage = "1.1.1"
+textwrap = "0.14.2"
+toml = "0.5.8"
+tui = { version = "0.16.0", features = ["crossterm"], default-features = false  }
+unicode-width = "0.1.8"
